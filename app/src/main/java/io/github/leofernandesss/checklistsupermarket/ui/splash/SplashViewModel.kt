@@ -11,7 +11,7 @@ class SplashViewModel : ViewModel() {
     fun goToHomeFragment(navController: NavController) {
         Handler(Looper.getMainLooper()).postDelayed({
             navController.navigate(R.id.action_splashFragment_to_homeFragment)
-        }, 3000)
+        }, 4000)
     }
 
 }
